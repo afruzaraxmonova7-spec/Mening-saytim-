@@ -1,10 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mening Saytim</title>
-</head>
-<body>
-    <h1>Tabriklayman! Saytim ishga tushdi.</h1>
-    <p>Bu GitHub orqali yaratilgan birinchi sahifam.</p>
+<<div class="social-links">
+                <a href="https://t.me/Rahmonova Afruza0205" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="mailto: afruzaraxmonova7@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="card" style="text-align: left;">
+            <div class="section-title"><i class="fas fa-graduation-cap"></i> Ma'lumot</div>
+            <div class="info-item">
+                <span>Fakultet:</span>
+                <strong>Matematika va kompyuter ilmlari</strong>
+            </div>
+            <div class="info-item">
+                <span>Maqsad:</span>
+                <strong>IT mutaxassisi</strong>
+            </div>
+        </div>
+
+        <div class="card" style="text-align: left;">
+            <div class="section-title"><i class="fas fa-rocket"></i> Ko'nikmalar</div>
+            
+            <div class="skill-group">
+                <div class="skill-name"><span>HTML / CSS</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-per" style="width: 85%;"></div></div>
+            </div>
+
+            <div class="skill-group">
+                <div class="skill-name"><span>Grafik Dizayn</span><span>75%</span></div>
+                <div class="skill-bar"><div class="skill-per" style="width: 75%;"></div></div>
+            </div>
+            
+            <div class="skill-group">
+                <div class="skill-name"><span>Ingliz tili</span><span>30%</span></div>
+                <div class="skill-bar"><div class="skill-per" style="width: 30%;"></div></div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
