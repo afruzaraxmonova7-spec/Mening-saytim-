@@ -1,101 +1,120 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afruza | Portfolio</title>
+    <title>Afruza Vahobjon qizi</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary: #6c5ce7;
-            --secondary: #a29bfe;
-            --dark: #0f0c29;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
             font-family: 'Poppins', sans-serif;
-            margin: 0;
-            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-            color: white;
+            background: #1a1a3d; /* To'q binafsha fon */
+            background: linear-gradient(180deg, #1a1a3d 0%, #0d0d21 100%);
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            color: white;
         }
 
-        .card {
-            background: rgba(255, 255, 255, 0.07);
-            backdrop-filter: blur(15px);
-            border-radius: 30px;
-            padding: 40px 25px;
-            width: 85%;
+        .container {
+            width: 90%;
             max-width: 400px;
             text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            padding: 20px;
         }
 
-        /* Qiz bola avatar stili */
-        .avatar-box {
+        /* Avatar qismi */
+        .avatar-wrapper {
             width: 130px;
             height: 130px;
-            margin: 0 auto 20px;
-            background: #fff;
-            border-radius: 50%;
-            padding: 5px;
-            box-shadow: 0 0 20px var(--primary);
+            margin: 0 auto 25px;
+            position: relative;
         }
 
-        .avatar-box img {
+        .avatar-wrapper img {
             width: 100%;
             height: 100%;
             border-radius: 50%;
+            border: 2px solid #7d5fff;
+            box-shadow: 0 0 20px rgba(125, 95, 255, 0.6);
+            object-fit: cover;
         }
 
-        h1 { font-size: 1.6rem; margin: 10px 0; }
-        .tag { color: var(--secondary); font-size: 0.85rem; margin-bottom: 20px; display: block; }
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
 
-        .about { font-size: 0.9rem; line-height: 1.6; opacity: 0.8; margin-bottom: 25px; }
+        .university {
+            font-size: 14px;
+            color: #a29bfe;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
 
-        .btn-group { display: flex; flex-direction: column; gap: 12px; }
+        .description {
+            font-size: 14px;
+            line-height: 1.6;
+            opacity: 0.8;
+            margin-bottom: 35px;
+            padding: 0 10px;
+        }
+
+        /* Tugmalar stili */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
         .btn {
-            text-decoration: none;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             color: white;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 12px;
-            border-radius: 12px;
-            font-weight: 600;
-            transition: 0.3s;
+            padding: 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
         }
 
         .btn:hover {
-            background: var(--primary);
-            transform: scale(1.03);
+            background: rgba(125, 95, 255, 0.2);
+            border-color: #7d5fff;
+            transform: translateY(-2px);
         }
+
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <div class="avatar-box">
+    <div class="container">
+        <div class="avatar-wrapper">
             <img src="https://img.freepik.com/free-vector/young-woman-with-glasses-avatar-character_24877-54441.jpg" alt="Avatar">
         </div>
-        
-        <h1>Afruza Vahobjon qizi</h1>
-        <span class="tag">Qarshi Davlat Universiteti | ATT talabasi</span>
 
-        <p class="about">
-            Men veb-dasturlashga qiziquvchi, kelajakda o'z sohasining yetuk mutaxassisi bo'lishni maqsad qilgan talabaman.
+        <h1>Afruza Vahobjon qizi</h1>
+        <p class="university">Qarshi Davlat Universiteti | ATT talabasi</p>
+
+        <p class="description">
+            Men ATT mutaxassisi, kelajakda o'z sohasining yetuk mutaxassisi bo'lishni maqsad qilgan talabaman.
         </p>
 
-        <div class="btn-group">
+        <div class="links">
             <a href="https://t.me/afruza_user" class="btn">Telegram</a>
             <a href="mailto:afruzaraxmonova7@gmail.com" class="btn">Email</a>
-            <a href="https://github.com/afruzaraxmonova7-spec" class="btn">GitHub</a>
         </div>
     </div>
 
 </body>
 </html>
-
