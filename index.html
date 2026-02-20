@@ -16,14 +16,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 30px 15px;
+            padding: 40px 15px;
             min-height: 100vh;
         }
 
         .card {
             background: white;
-            border-radius: 30px;
-            padding: 25px;
+            border-radius: 25px;
+            padding: 30px 20px;
             width: 100%;
             max-width: 380px;
             margin-bottom: 20px;
@@ -31,18 +31,9 @@
             text-align: center;
         }
 
-        /* Profil bo'limi */
-        .avatar {
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            margin: 0 auto 15px;
-            border: 5px solid #f8f9fa;
-            object-fit: cover;
-        }
-
-        h1 { font-size: 22px; color: #333; margin-bottom: 5px; }
-        .subtitle { font-size: 14px; color: #777; margin-bottom: 20px; }
+        /* Profil bo'limi rasmiz holatda */
+        h1 { font-size: 24px; color: #2d3436; margin-bottom: 8px; }
+        .subtitle { font-size: 15px; color: #636e72; margin-bottom: 25px; font-weight: 300; }
 
         .social-btns {
             display: flex;
@@ -51,8 +42,8 @@
         }
 
         .s-btn {
-            width: 45px;
-            height: 45px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -60,15 +51,16 @@
             background: #7d5fff;
             color: white;
             text-decoration: none;
-            transition: 0.3s;
+            font-size: 20px;
+            transition: 0.3s ease;
         }
 
-        .s-btn:hover { transform: scale(1.1); }
+        .s-btn:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(125,95,255,0.4); }
 
-        /* Ma'lumot va Ko'nikma */
+        /* Bo'limlar */
         .title {
             text-align: left;
-            font-size: 16px;
+            font-size: 17px;
             font-weight: 600;
             color: #4b0082;
             margin-bottom: 15px;
@@ -78,63 +70,50 @@
         }
 
         .box {
-            background: #f1f2f6;
+            background: #f8f9fa;
             padding: 15px;
             border-radius: 15px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             text-align: left;
             font-size: 14px;
+            border-left: 4px solid #7d5fff;
         }
 
-        .skill-bar {
-            text-align: left;
-            margin-bottom: 15px;
-        }
-
-        .bar-bg {
-            height: 10px;
-            background: #e0e0e0;
-            border-radius: 5px;
-            margin-top: 5px;
-        }
-
-        .bar-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #7d5fff, #ff7eb3);
-            border-radius: 5px;
-        }
+        .skill-bar { text-align: left; margin-bottom: 18px; }
+        .bar-bg { height: 10px; background: #eee; border-radius: 10px; margin-top: 8px; }
+        .bar-fill { height: 100%; background: linear-gradient(90deg, #7d5fff, #ff7eb3); border-radius: 10px; }
     </style>
 </head>
 <body>
 
     <div class="card">
-        <img src="https://img.freepik.com/free-vector/young-woman-with-glasses-avatar-character_24877-54441.jpg" class="avatar" alt="Afruza">
         <h1>Afruza Vahobjon qizi</h1>
         <p class="subtitle">Qarshi davlat universiteti talabasi</p>
         <div class="social-btns">
-            <a href="https://t.me/afruza_user" class="s-btn"><i class="fab fa-telegram"></i></a>
+            <a href="https://t.me/afruza_user" class="s-btn"><i class="fab fa-telegram-plane"></i></a>
             <a href="mailto:afruzaraxmonova7@gmail.com" class="s-btn"><i class="fas fa-envelope"></i></a>
-            <a href="#" class="s-btn"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/afruzaraxmonova7-spec" class="s-btn"><i class="fab fa-github"></i></a>
         </div>
     </div>
 
     <div class="card">
         <div class="title"><i class="fas fa-graduation-cap"></i> Ma'lumot</div>
         <div class="box"><b>Fakultet:</b> Matematika va kompyuter ilmlari (ATT)</div>
-        <div class="box"><b>Maqsad:</b> IT mutaxassisi bo'lish</div>
+        <div class="box"><b>Maqsad:</b> IT sohasida kuchli mutaxassis bo'lish</div>
     </div>
 
     <div class="card">
         <div class="title"><i class="fas fa-star"></i> Ko'nikmalar</div>
         <div class="skill-bar">
-            <span>HTML/CSS</span>
-            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+            <span>HTML / CSS</span>
+            <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
         </div>
         <div class="skill-bar">
-            <span>Dizayn</span>
-            <div class="bar-bg"><div class="bar-fill" style="width: 70%;"></div></div>
+            <span>Veb Dizayn</span>
+            <div class="bar-bg"><div class="bar-fill" style="width: 75%;"></div></div>
         </div>
     </div>
 
 </body>
 </html>
+
