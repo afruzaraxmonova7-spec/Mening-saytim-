@@ -57,17 +57,18 @@
     <header>
         <img src="https://via.placeholder.com/150" alt="Profil rasm" class="profile-img">
         <h1>Assalomu alaykum!</h1>
-        <p>Men GitHub orqali o'z saytimni yaratayotgan dasturchiman.</p>
+        <p>Rahmonova Afruza Vahobjon qizi 
+Qarshi davlat universiteti talabasi</p>
     </header>
 
     <div class="container">
         <h2>Men haqimda</h2>
-        <p>Hozirda men veb-texnologiyalarni o'rganyapman. Bu mening GitHub Pages-dagi ilk loyiham!</p>
+        <p>Qarshi davlat universiteti 2-bosqich talabasi . ATT mutaxassisi. Maqsadim:Oʻz sohamni yetuk mutaxassis boʻlish</p>
 
         <div class="links">
             <a href="https://t.me/username">Telegram</a>
             <a href="https://github.com/username">GitHub Profil</a>
-            <a href="mailto:email@example.com">Email</a>
+            <a href="afruzaraxmonova7@gmail.com">Email</a>
         </div>
     </div>
 
